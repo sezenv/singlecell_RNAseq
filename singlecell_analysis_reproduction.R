@@ -1,5 +1,3 @@
-setwd("C:/Users/Sezen Vatansever/Documents/singlecell_analysis_GitHub")
-
 ## It is the reproduction of the ScRNA analysis for a Nat Comm paper: https://www.nature.com/articles/s41467-020-14296-y#Sec2
 # Wang, X., Xu, H., Cheng, C., Ji, Z., Zhao, H., Sheng, Y., ... & Zhu, H. H. (2020). Identification of a Zeb1 expressing basal stem cell subpopulation in the prostate. Nature communications, 11(1), 1-16.
 ## The scRNAseq analysis pipeline has 4 steps as below: 
@@ -17,6 +15,7 @@ setwd("C:/Users/Sezen Vatansever/Documents/singlecell_analysis_GitHub")
 # then rename the 3 files inside as "barcodes.tsv.gz", "features.tsv.gz", and "matrix.mtx.gz"
 # So that they can be recognized by the Read10X() function.
 
+# setwd("singlecell_analysis_GitHub")
 ###############################################################################
 ### Step01 removal of poor quality cells and contaminated non-epithelial cells 
 ###############################################################################
